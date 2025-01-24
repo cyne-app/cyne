@@ -1,0 +1,4 @@
+/* Add your sidebar styles here */
+.sidebar {
+  @apply bg-white dark:bg-dark;
+} 

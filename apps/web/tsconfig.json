@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/shared/*": ["../../packages/shared/*/src"],
+      "@/core/*": ["../../packages/core/*/src"],
+      "@/ui/*": ["../../packages/ui/components/src/*"]
+    }
+  }
+} 

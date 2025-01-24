@@ -1,0 +1,4 @@
+/* Add your header styles here */
+.header {
+  @apply bg-white dark:bg-dark;
+} 

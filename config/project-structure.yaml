@@ -1,0 +1,55 @@
+- path: /
+  contents:
+    - path: /apps
+      contents:
+        - path: /apps/web
+          contents:
+            - path: /apps/web/src
+              contents:
+                - path: /apps/web/src/features
+                  contents:
+                    - path: /apps/web/src/features/chat
+                    - path: /apps/web/src/features/wallet
+                    - path: /apps/web/src/features/defi
+                    - path: /apps/web/src/features/nft
+                - path: /apps/web/src/core
+                  contents:
+                    - path: /apps/web/src/core/providers
+                    - path: /apps/web/src/core/hooks
+                    - path: /apps/web/src/core/utils
+                - path: /apps/web/src/shared
+                  contents:
+                    - path: /apps/web/src/shared/ui
+                    - path: /apps/web/src/shared/styles
+                    - path: /apps/web/src/shared/config
+        - path: /apps/admin
+          contents:
+            - path: /apps/admin/src
+              contents:
+                - path: /apps/admin/src/features
+                - path: /apps/admin/src/shared
+    - path: /packages
+      contents:
+        - path: /packages/ui
+          contents:
+            - path: /packages/ui/components
+            - path: /packages/ui/hooks
+            - path: /packages/ui/styles
+        - path: /packages/core
+          contents:
+            - path: /packages/core/blockchain
+            - path: /packages/core/ai
+            - path: /packages/core/auth
+        - path: /packages/config
+          contents:
+            - path: /packages/config/eslint
+            - path: /packages/config/typescript
+    - path: /tools
+      contents:
+        - path: /tools/scripts
+        - path: /tools/docker
+    - path: /docs
+      contents:
+        - path: /docs/api
+        - path: /docs/development
+        - path: /docs/deployment 

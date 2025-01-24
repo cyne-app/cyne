@@ -1,0 +1,36 @@
+:root {
+  /* Main colors */
+  --color-primary: #FF4D4D;
+  --color-secondary: #FF8A8A;
+  --color-background: #0B0F17;
+  
+  /* UI colors */
+  --color-border: rgba(82, 82, 82, 0.5);
+  --color-input: rgba(39, 39, 39, 0.5);
+  
+  /* Text colors */
+  --color-text: #FFFFFF;
+  --color-text-secondary: #9CA3AF;
+  
+  /* Additional colors */
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  
+  /* Background colors */
+  --background: #0B0F17;
+  --foreground: #FFFFFF;
+}
+
+.dark {
+  /* Same colors for dark mode since it's a dark theme by default */
+  --color-primary: #FF4D4D;
+  --color-secondary: #FF8A8A;
+  --color-background: #0B0F17;
+  --color-border: rgba(82, 82, 82, 0.5);
+  --color-input: rgba(39, 39, 39, 0.5);
+  --color-text: #FFFFFF;
+  --color-text-secondary: #9CA3AF;
+  --background: #0B0F17;
+  --foreground: #FFFFFF;
+} 
