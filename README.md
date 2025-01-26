@@ -1,6 +1,8 @@
 # CYNE
 
-> Your AI-Powered Navigator for the Solana Ecosystem
+> CYNE is an AI-powered platform for the Solana ecosystem that seamlessly integrates intelligent agents for automated trading, portfolio management, and DeFi operations. Built with Next.js, TypeScript, and cutting-edge AI technology.
+
+Topics: solana, artificial-intelligence, defi, web3, nextjs, typescript, trading-bot, portfolio-management, blockchain
 
 CYNE is a cutting-edge **open-source** platform that seamlessly integrates artificial intelligence with blockchain technology. Built specifically for the [Solana](https://solana.com/) ecosystem, CYNE revolutionizes how users interact with DeFi protocols, NFTs, and blockchain services.
 
@@ -134,6 +136,5 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 
 ## Social Links
 - Twitter: [@cyne_ai](https://twitter.com/cyne_ai)
-- Discord: [discord.gg/cyne](https://discord.gg/cyne)
-- Telegram: [t.me/cyne_ai](https://t.me/cyne_ai)
+- Discord: [Join our Discord](https://discord.com/invite/f7N2AKcu)
 - Documentation: [docs.cyne.ai](https://docs.cyne.ai)
