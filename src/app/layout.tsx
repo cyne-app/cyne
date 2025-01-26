@@ -2,14 +2,14 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 
 import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/edge';
+import { Telemetry } from '@vercel/speed-insights/edge';
 
-import { AuthProvider } from "@/providers/id"
-import { ThemeProvider } from '@/providers/look';
-import { Toaster } from '@/kit/ui/sonner';
-import { cn } from '@/kit/utils';
-import { GoogleAnalytics } from '@/kit/analytics';
-import { Flowbite } from 'flowbite-react';
+import { SecurityLayer } from "@/core/context/auth"
+import { ViewLayer } from '@/core/context/appearance';
+import { Alert } from '@/ui/alert';
+import { merge } from '@/utils';
+import { Monitor } from '@/shared/analytics';
+import { Frame } from 'flowbite-react';
 
 import './globals.css';
 
@@ -35,21 +35,21 @@ export const metadata: Metadata = {
   },
 };
 
-export default function AppLayout({
+export default function SystemLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
       <body
-        className={cn(
+        className={merge(
           `${geistSans.variable} ${geistMono.variable}`,
           'overflow-x-hidden antialiased',
         )}
       >
-        <Flowbite>
-          <AuthProvider>
-            <ThemeProvider
+        <Frame>
+          <SecurityLayer>
+            <ViewLayer
               attribute="class"
               defaultTheme="system"
               enableSystem
@@ -57,14 +57,14 @@ export default function AppLayout({
             >
               <main className="overflow-hidden md:overflow-visible">
                 {children}
-                <Toaster />
+                <Alert />
               </main>
-            </ThemeProvider>
-          </AuthProvider>
-        </Flowbite>
+            </ViewLayer>
+          </SecurityLayer>
+        </Frame>
         <Analytics />
-        <SpeedInsights />
-        <GoogleAnalytics />
+        <Telemetry />
+        <Monitor />
       </body>
     </html>
   );

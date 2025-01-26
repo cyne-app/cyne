@@ -78,16 +78,51 @@ Currently focused on **strengthening core systems and expanding AI capabilities*
   - [ ] Blinks Framework
   - [x] Magic Eden Services
 
-### Market Analysis
-
-- [x] Token Analytics (Defined.fi)
-- [x] NFT Market Insights (Magic Eden)
-
 ### Smart Systems
 
 - [ ] Automated Chain Operations
-- [ ] Custom AI Agents
-- [ ] AI Trading Systems
+  - [ ] Whale Tracking Agent `[UPCOMING Q2 2024]`
+    - Real-time whale movement monitoring
+    - Significant transaction alerts
+    - Market impact analysis
+  
+  - [ ] Yield Farming Agent `[PENDING]`
+    - Strategic yield optimization
+    - Protocol-specific strategies
+    - Risk-adjusted returns
+  
+  - [ ] Liquidity Manager `[UPCOMING Q1 2024]`
+    - Capital efficiency optimization
+    - Strategic position management
+    - Automated rebalancing
+  
+  - [ ] Staking Agent `[UPCOMING Q1 2024]`
+    - Multi-protocol staking optimization
+    - Reward maximization
+    - Liquidity management
+  
+  - [ ] Dex Aggregator Agent `[IN DEVELOPMENT]`
+    - Cross-protocol route optimization
+    - Slippage minimization
+    - Best price execution
+  
+  - [ ] Sentiment Analysis Agent `[UPCOMING Q2 2024]`
+    - X trend analysis
+    - News impact assessment
+    - On-chain data correlation
+  
+  - [ ] Risk Analysis Agent `[PENDING]`
+    - Real-time threat monitoring
+    - Vulnerability assessment
+    - Market risk evaluation
+  
+  - [ ] Portfolio Management Agent `[IN DEVELOPMENT]`
+    - Automated portfolio balancing
+    - Performance tracking
+    - Market-based optimization
+
+- [ ] Custom AI Agents `[UPCOMING Q2 2024]`
+- [ ] AI Trading Systems `[UPCOMING Q3 2024]`
 
 ## Join Our Community
 

@@ -45,3 +45,12 @@ next-env.d.ts
 
 # Project specific
 repo_structure.yaml
+.vscode/
+.idea/
+*.local.yaml
+*.local.json
+
+# Build artifacts
+dist/
+.cache/
+.temp/
