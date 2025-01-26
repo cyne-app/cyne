@@ -49,6 +49,7 @@ repo_structure.yaml
 .idea/
 *.local.yaml
 *.local.json
+.cursorrules
 
 # Build artifacts
 dist/
